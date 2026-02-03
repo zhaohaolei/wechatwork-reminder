@@ -18,7 +18,7 @@ jobs:
           -d '{
             "msgtype": "markdown",
             "markdown": {
-              "content": "### 📢 晚会提醒\n各位同事，现在是16:55，今晚的团队晚会即将开始，请大家做好准备～\n> <liujianlong@cvte.com>、<pengdi@cvte.com>、<zhaohaolei@cvte.com> \n> 推送时间: '"$(date +'%Y-%m-%d %H:%M:%S')"'"
+              "content": "### 📢 晚会提醒\n各位同事，现在是16:55，今晚的团队晚会即将开始，请大家做好准备～\n> <@liujianlong@cvte.com>、<@pengdi@cvte.com>、<@zhaohaolei@cvte.com> \n> 推送时间: '"$(date +'%Y-%m-%d %H:%M:%S')"'"
             },
             "mentioned_list": ["liujianlong@cvte.com", "pengdi@cvte.com", "zhaohaolei@cvte.com"]
           }'
