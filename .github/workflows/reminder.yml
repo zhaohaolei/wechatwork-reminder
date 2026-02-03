@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: 发送企微消息
         run: |
-          curl -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=9f7465ce-be2a-4d72-a88f-632be684ca80" \
+          curl -X POST "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=acd06db3-bafa-4e76-ad4d-2aeb13a90973" \
           -H "Content-Type: application/json" \
           -d '{
             "msgtype": "markdown",
